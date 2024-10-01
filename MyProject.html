@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="create_new_folder_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" />
+    <link rel="stylesheet" href="breakpoints/BreakMyproject.css" />
+    <title>My Projects</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(236, 235, 235);
+    }
+
+    .Link-button {
+      text-align: center;
+      margin-top: 8px;
+      width: 100%;
+      height: 40px;
+      background-color: rgb(236, 235, 235);
+      border: none;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      cursor: pointer;
+      transition: background-color 1s, color 0.8s;
+    }
+    .Link-button:hover {
+      background-color: rgb(164, 161, 161);
+      color: rgb(255, 255, 255);
+    }
+    .Projects-container {
+      margin-top: 140px;
+      display: grid;
+      grid-template-columns: 200px;
+      column-gap: 10px;
+      /* border: 1px solid black; */
+      justify-content: center;
+    }
+    .Projects-container img {
+      width: 100%;
+    }
+    .continer {
+      /* border: 1px solid red; */
+      padding: 10px;
+      background-color: rgb(124, 124, 124);
+      border-radius: 10px;
+    }
+    .Description {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .Description p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .HOME {
+      position: fixed;
+      top: 85px;
+      left: 10px;
+    }
+
+    .HOME button {
+      background-color: rgb(181, 179, 179);
+      width: 100px;
+      padding: 8px;
+      border: none;
+      font-family: "Times New Roman", Times, serif;
+      cursor: pointer;
+      transition: background-color 1s, color 0.8s;
+    }
+    .HOME button:hover {
+      background-color: rgb(164, 161, 161);
+      color: rgb(255, 255, 255);
+    }
+  </style>
+  <body>
+    <header>
+      <h1>My Own Projects</h1>
+    </header>
+    <a href="index.html">
+      <div class="HOME"><button>HOME</button></div></a
+    >
+
+    <div class="Projects-container">
+      <div class="continer">
+        <img src="Thumbnails/Mcdonald App replica.JPG" alt="" />
+        <div class="Description">
+          <p>Mc donald Replica</p>
+        </div>
+        <a href="https://porlares0408.github.io/McDonaldReplica/">
+          <button class="Link-button">View Project</button></a
+        >
+      </div>
+    </div>
+  </body>
+</html>

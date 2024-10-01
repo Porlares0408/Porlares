@@ -1,0 +1,22 @@
+@media (min-width: 320px) {
+  .HOME {
+    position: fixed;
+    top: 85px;
+    left: 0px;
+  }
+  .HOME button {
+    width: 50px;
+    padding: 7px;
+  }
+  .Projects-container {
+    margin-top: 85px;
+  }
+}
+@media (min-width: 375px) {
+}
+@media (min-width: 425px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+}
